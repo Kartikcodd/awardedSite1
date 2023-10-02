@@ -1,0 +1,16 @@
+ smooth scrolling
+
+ loco CSS
+ locomotive js cdn 
+ locomotive js 
+ scroll min js cdn
+
+ Circle Cursor
+
+ function cirleCursor {
+    document.addEventListener("mousemove",function(detls){
+        document.querySelector(#cricle).style.transform = `translate(${detls.clientx}px,${detls.clienty}px)`
+    })
+ }
+
+cirleCursor();
